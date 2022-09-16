@@ -16,4 +16,5 @@ CREATE TABLE habits(
     date_done integer[],
     period int NOT NULL,
     frequency int NOT NULL,
+    user_id integer
 )
