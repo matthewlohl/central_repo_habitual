@@ -5,6 +5,6 @@ CREATE TABLE users(
     user_name varchar(255) NOT NULL UNIQUE,
     email varchar(100) NOT NULL UNIQUE,
     password_digest varchar(500) NOT NULL
-);
+)
 
 
