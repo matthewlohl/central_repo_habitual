@@ -1,4 +1,4 @@
-[submodule "back_end_babitual"]
+[submodule "back_end_habitual"]
 	path = back_end_habitual
 	url = git@github.com:Nevashka/back_end_habitual.git
 [submodule "Front_end_Habitual"]
