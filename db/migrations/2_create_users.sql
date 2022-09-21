@@ -6,5 +6,3 @@ CREATE TABLE users(
     email varchar(100) NOT NULL UNIQUE,
     password_digest varchar(500) NOT NULL
 )
-
-
