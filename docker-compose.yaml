@@ -5,7 +5,7 @@ services:
     working_dir: /code
     volumes:
       - type: bind
-        source: ./Back_end_Habitual
+        source: ./back_end_habitual
         target: /code
 
   db:
