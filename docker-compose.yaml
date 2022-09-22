@@ -1,15 +1,15 @@
 version: '3'
 services:
   api:
-    image: node:12.18.4
+    image: node:16.15.0
     working_dir: /code
     volumes:
       - type: bind
-        source: ./Back_end_Habitual
+        source: ./back_end_habitual
         target: /code
 
   db:
-    image: postgres:12.4
+    image: postgres:latest
     environment: 
       - POSTGRES_USER=habitual
     volumes:
